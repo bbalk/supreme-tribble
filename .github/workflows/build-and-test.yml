@@ -40,5 +40,5 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v7
         with:
-          push: false
-          tags: bbalk/supreme-tribble:latest
+          push: true
+          tags: ghcr.io/bbalk/supreme-tribble:latest
